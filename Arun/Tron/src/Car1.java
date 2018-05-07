@@ -16,10 +16,10 @@ public class Car1 implements KeyListener{
 	public Car1(){
 		myColor = Color.red;
 		health = 1;
-		SIZE = 6;
-		x = 75;
-		y = 337-SIZE/2;
-		speed = 6;
+		SIZE = 5;
+		x = 150;
+		y = MainClass.HEIGHT/2+40-SIZE/2;
+		speed = 10;
 		leftPressed = rightPressed = upPressed = downPressed = false;
 		vX = speed;
 		vY = 0;

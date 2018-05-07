@@ -7,7 +7,7 @@ public class Car2 extends Car1{
 	
 	public Car2(){
 		myColor = Color.blue;
-		x = 725-SIZE;
+		x = MainClass.WIDTH-150-SIZE;
 		vX = -speed;
 	}
 	
